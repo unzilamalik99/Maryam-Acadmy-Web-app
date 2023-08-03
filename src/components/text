@@ -1,0 +1,85 @@
+  <!--  {/* <a href="/" title="Home" rel="home">
+          <img src="edu.webp" alt="Home" className="w-124 h-42 " />
+        </a>} -->
+
+
+        <!-- <div className="cursor-point text-white text-2xl ">
+            <AiOutlineClose />
+          </div>
+          <div className="cursor-point text-white text-2xl ">
+            {" "}
+            <AiOutlineMenu />{" "}
+          </div> -->
+<!-- 
+          //https://www.codingdojo.com/blog/wp-content/uploads/tech-literacy-Copy.gif -->
+
+
+          
+<!-- <button id="multiLevelDropdownButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Dropdown button <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+</svg></button>
+ Dropdown menu -->
+<!-- <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+  <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="multiLevelDropdownButton">
+    <li>
+      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+    </li>
+    <li>
+      <button id="doubleDropdownButton" data-dropdown-toggle="doubleDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dropdown<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+</svg></button>
+        <div id="doubleDropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+          <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="doubleDropdownButton">
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Overview</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">My downloads</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Billing</a>
+            </li>
+            <li>
+              <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rewards</a>
+            </li>
+          </ul>
+      </div>
+    </li>
+    <li>
+      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+    </li>
+    <li>
+      <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+    </li>
+  </ul>
+</div> -->
+
+<!-- 
+<div className="max-w-sm mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+  <div className="md:flex">
+    <div className="md:flex-shrink-0">
+      <img
+        className="h-48 w-full object-cover md:w-48"
+        src="your_image_url_here"
+        alt="Card"
+      />
+    </div>
+    <div className="p-8">
+      <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+        Category
+      </div>
+      <a
+        href="#"
+        className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+      >
+        Card Title
+      </a>
+      <p className="mt-2 text-white">
+        In this training, you will learn about the various forms of gender-based violence, which constitutes a human rights violation and result from gender and other intersecting forms of discrimination. The course fee is $40, and you will receive a certificate of participation upon completion.  
+      </p>
+    </div>
+  </div>
+</div> -->
+
+
+<!-- https://github.com/michalsnik/aos -->
