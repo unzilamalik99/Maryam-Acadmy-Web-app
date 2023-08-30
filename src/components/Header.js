@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import {AiOutlineClose} from 'react-icons/ai';
+import { Outlet, Link } from "react-router-dom";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -9,15 +10,16 @@ export default function Header() {
   //   // Perform any custom actions or navigation here
   //   console.log('Custom click handler executed');
   // };
+ 
 
   const menuLinks = [
-    { name: "Home", link: "#" },
-    { name: "About Us", link: "#About " },
-    { name: " Our Team", link: "#OurTeam" },
-    { name: "Services, Institutions & Programs", link: "#Services " },
-    { name: "Scholarship & Donation",  link: "#Scholarship "},
-    { name: " Events & News", link: "#Events" },
-    { name: "Contact us", link: "#contact" },
+    { name: "Home", link: "/" },
+    { name: "About Us", link: "/About " },
+    { name: " Our Team", link: "/OurTeam" },
+    { name: "Services, Institutions & Programs", link: "/Services " },
+    { name: "Scholarship & Donation",  link: "/Scholarship "},
+    { name: " Events & News", link: "/Events" },
+    { name: "Contact us", link: "/contact" },
   ];
 
   return (
@@ -38,20 +40,20 @@ export default function Header() {
           </h1>
         </div>
 
-        <nav className="w-full left-0 top-0 z-[999]">
+        <nav className="md:w-full left-0 top-0 z-[999]">
           <div>
-            <div className="bg-black  w-full text-white md:block hidden px-7 py-2 font-medium ">
+            <div className="bg-black  md:w-full text-white md:block hidden px-7 py-2 font-medium ">
               <ul className="flex items-center gap-7 text-lg ">
                 {menuLinks?.map((menu, i) => (
                   <li onClick={()=> setOpen(false)} 
                   key={i} className="hover:border-y-2 border-[#0d2e4e] py-2  ">
-                    <a href={menu?.link} onClick={()=>setOpen(!open)}>{menu?.name}</a>
+                    <Link to={menu?.link} onClick={()=>setOpen(!open)}>{menu?.name}</Link>
                   </li>
                 ))}
               </ul>
 
             </div>
-            <div className="bg-black md:hidden w-full py-5 px-5 text-xl justify-between text-white">
+            <div className="bg-black md:hidden  py-5 px-5 text-xl justify-between text-white">
               <div>Menu
                 {
                   open?
@@ -67,18 +69,23 @@ export default function Header() {
               </div>
             </div>
           </div>
-          <div className={`md:hidden text-gray-900 w-full absolute font-medium bg-white top-25 max-w-xs h-screen right-0 z-20 duration-300 ${open ? "right-0" : "right-[-100%]"}`}>
-            <ul className="h-full flex flex-col justify-center item-center  text-primary font-semibold text-xl">
-              {menuLinks?.map((menu, i) => (
-                <li key={i} className="p-10 px-5 border border-gray-200 shadow-gray-400 py-5 w-200">
-                  <a href={menu?.link} >{menu?.name}</a>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <div
+className={`container mx-auto md:hidden absolute z-20 flex justify-between items-center duration-300 ${
+  open ? "block" : "hidden"
+} md:block`}
+>
+<ul className=" py-80 h-screen flex flex-col justify-center item-center text-primary font-semibold text-xl text-gray-900  bg-white top-50 max-w-xs ">
+    {menuLinks?.map((menu, i) => (
+      <li key={i} className="p-10 px-5 border border-gray-200 shadow-gray-400 py-5 w-400 ">
+        <Link to={menu?.link} >{menu?.name}</Link>
+      </li>
+    ))}
+  </ul>
+</div>
+
         </nav>
       </div>
-      
+      <Outlet/>
     </>
   );
 }

@@ -1,6 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import React from 'react'
 
 const About=() =>{
+  const navigate = useNavigate();
+
+  const someEventHandler = () => {
+      navigate('/AboutRead');
+  
+}
   
  return (
  <section id="About" className='py-10 bg-black text-white  '>
@@ -18,7 +25,7 @@ const About=() =>{
       
     </p>
    <br/>
- <button className='bg-[#0d2e4e] px-5 py-3  font-semibold rounded-full hover:bg-white hover:text-black '>Read more </button>
+ <button type="button" onClick={someEventHandler}  className='bg-[#0d2e4e] px-5 py-3  font-semibold rounded-full hover:bg-white hover:text-black '>Read more </button>
 
  
    </div>

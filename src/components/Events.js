@@ -1,7 +1,17 @@
 import React from 'react'
 
-export default function Events() {
+const Events=()=> {
   return (
-    <div>Events</div>
-  )
+<>
+<section className=' bg-black   text-white'>
+  <div className='max-w-6xl mx-auto px-10'>
+    <p >
+      hello
+    </p>
+
+  </div>
+</section>
+</>  )
 }
+
+export default Events

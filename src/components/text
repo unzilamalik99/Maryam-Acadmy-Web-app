@@ -83,3 +83,48 @@
 
 
 <!-- https://github.com/michalsnik/aos -->
+
+<!-- 
+<div
+className={`container mx-auto flex justify-between items-center duration-300 ${
+  open ? "block" : "hidden"
+} md:block`}
+>
+<ul className={" space-x-4 text-white "}>
+  {menuLinks?.map((menu, i) => (
+    <li
+      key={i}
+      className="p-10 px-5 border border-gray-200 shadow-gray-400 py-5 w-200"
+    >
+      <a href={menu?.link}>{menu?.name}</a>
+    </li>
+  ))}
+</ul>
+</div>
+
+
+
+<div className={`duration-300 ${open ? "right-0" : "right-[-100%]"} z-20 w-2/3 absolute md:hdden text-gray-900   font-medium bg-white top-25 max-w-xs h-screen `}>
+  <ul className="h-full flex flex-col justify-center item-center  text-primary font-semibold text-xl">
+    {menuLinks?.map((menu, i) => (
+      <li key={i} className="p-10 px-5 border border-gray-200 shadow-gray-400 py-5 w-200">
+        <a href={menu?.link} >{menu?.name}</a>
+      </li>
+    ))}
+  </ul>
+</div>
+
+npm i react-scripts@latest
+
+function Login() {
+  let navigate = useNavigate();
+  return (
+    <div>
+      <LoginForm
+        onSubmit={() => {
+          navigate('/user/dashboard');
+        }}
+      />
+    </div>
+  );
+} -->

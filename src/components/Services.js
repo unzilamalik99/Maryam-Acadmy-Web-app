@@ -20,9 +20,9 @@ const Services = () => {
           or financial resources A focus on promoting diversity, inclusion, and
           social justice in all aspects of our work
         </p>
-        <h className="text-white font-serif px-10  mt-10  text-3xl  font-bold">
+        <h1 className="text-white font-serif px-10  mt-10  text-3xl  font-bold">
           Trainig Programs{" "}
-        </h>
+        </h1>
         <div className="flex items-center justify-center  mt-12 gap-10 flex-wrap">
           <div className="border-2 border-white relative min-w-[15rem] shadow-lg max-w-[16rem] bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500">
             <img
@@ -37,7 +37,7 @@ const Services = () => {
               </div>
               <a
                 href="#"
-                className="block mt-1 text-lg leading-tight font-medium text-[#0d2e4e] hover:underline"
+                className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Gender-Based Violence
               </a>
@@ -46,9 +46,9 @@ const Services = () => {
                 gender-based violence, which constitutes a human rights
                 violation and result from gender and other intersecting forms of
                 discrimination....
-                <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
+                {/* <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
                   Read more{" "}
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
@@ -63,17 +63,19 @@ const Services = () => {
               <div className="uppercase tracking-wide text-sm text-white font-semibold">
                 Category
               </div>
-              <a
-                href="#"
-                className="block mt-1 text-lg leading-tight font-medium text-[#0d2e4e] hover:underline"
+             
+               <a href="#"
+                className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Peace Education Training Programs
               </a>
               <p className="mt-2 text-white justify-center leading-5 ">
-              These programs aim to promote peacebuilding and conflict resolution skills through topics such as intercultural communication, conflict management, ....
-                <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
+                These programs aim to promote peacebuilding and conflict
+                resolution skills through topics such as intercultural
+                communication, conflict management, ....
+                {/* <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
                   Read more{" "}
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
@@ -88,17 +90,18 @@ const Services = () => {
               <div className="uppercase tracking-wide text-sm text-white font-semibold">
                 Category
               </div>
-              <a
-                href="#"
-                className="block mt-1 text-lg leading-tight font-medium text-[#0d2e4e] hover:underline"
+              <a href="#"
+                className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Environmental Law and Climate Change
               </a>
               <p className="mt-2 text-white justify-center leading-5 ">
-              In this training we focus on educating individuals about environmental laws and regulations, as well as the impact of climate change on the environment. Topics  ....
-                <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
+                In this training we focus on educating individuals about
+                environmental laws and regulations, as well as the impact of
+                climate change on the environment. Topics ....
+                {/* <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
                   Read more{" "}
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
@@ -113,21 +116,21 @@ const Services = () => {
               <div className="uppercase tracking-wide text-sm text-white font-semibold">
                 Category
               </div>
-              <a
-                href="#"
-                className="block mt-1 text-lg leading-tight font-medium text-[#0d2e4e] hover:underline"
+              <a href="#"
+                className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Climate Change and Human Rights
               </a>
               <p className="mt-2 text-white justify-center leading-5 ">
-              This Training course explores the relationship between climate change and human rights. By the end of the course, you will be able to critically evaluate both the ....
-                <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
+                This Training course explores the relationship between climate
+                change and human rights. By the end of the course, you will be
+                able to critically evaluate both the ....
+                {/* <button className="bg-[#0d2e4e] px-4 py-2 mt-5 font-semibold rounded-full hover:bg-white hover:text-black ">
                   Read more{" "}
-                </button>
+                </button> */}
               </p>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
