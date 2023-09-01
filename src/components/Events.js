@@ -10,7 +10,7 @@ const Events=()=> {
 
 <div className=" bg-gray-200 px-7 py-10">
  <div className="gap-5 mx-auto  ">
- <h3 className='text-4xl py-10 font-bold justify-center px-40 max-w-8xl mx-auto '>
+ <h3 className='text-2xl md:text-4xl py-5 md:py-10 font-bold justify-center md:px-40 max-w-8xl mx-auto '>
    Events and News
   </h3>
  <div className="flex flex-col overflow-hidden items-center md:gap-6 gap-12 px-7 max-w-8xl mx-auto transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]  ' bg-white rounded shadow-lg sm:w-2/3 md:w-1/2 lg:w-2/3">
