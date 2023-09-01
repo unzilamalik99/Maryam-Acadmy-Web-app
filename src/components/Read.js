@@ -42,14 +42,14 @@ const Read = () => {
           </h3>
         </div>
         <div className="flex md:flex-row flex-col-reverse gap-5 justify-center px-20 max-w-6xl  mx-auto mt-5">
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+                
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 Academic programs
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 METS offers academic programs in various fields, including arts,
                 sciences, business administration, and information technology.
@@ -61,14 +61,14 @@ const Read = () => {
           </div>
           {/* ------- second Box---------- */}
 
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]   p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+                
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 Professional training programs
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 METS also offers professional training programs that are
                 designed to enhance the skills and knowledge of professionals in
@@ -77,14 +77,14 @@ const Read = () => {
               </p>
             </div>
           </div>
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]   p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+              
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 Research & Publication
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 METS is committed to driving change through research. The
                 organization conducts research in various fields to advance
@@ -93,14 +93,13 @@ const Read = () => {
               </p>
             </div>
           </div>
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]   p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 Community outreach
-              </a>
+              </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 METS is dedicated to giving back to society through meaningful
                 service. The organization works closely with local communities
@@ -111,14 +110,14 @@ const Read = () => {
           </div>
         </div>
         <div className="flex md:flex-row flex-col-reverse gap-5 justify-center px-20 max-w-6xl  mx-auto mt-5">
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+              
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 International programs
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 METS is committed to fostering global citizens with an
                 international perspective. The organization offers programs and
@@ -128,14 +127,14 @@ const Read = () => {
               </p>
             </div>
           </div>
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+               
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 International programs
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 METS is committed to fostering global citizens with an
                 international perspective. The organization offers programs and
@@ -145,14 +144,14 @@ const Read = () => {
               </p>
             </div>
           </div>
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11] p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+               
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 Online Course & Events
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 We offer online courses in various subjects, including those
                 related to our training programs. Our online courses are
@@ -161,14 +160,14 @@ const Read = () => {
               </p>
             </div>
           </div>
-          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="md:my-5 border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[12rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11] p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <div className="">
-              <a
-                href="#"
+              <span
+                
                 className="block mt-1 text-lg leading-tight font-bold text-[#010202] hover:underline"
               >
                 Scholarship or Donation
-              </a>
+                </span>
               <p className="mt-2 text-white justify-center leading-5 ">
                 We provide financial aid and scholarship opportunities for
                 students at our educational institutions, as well as

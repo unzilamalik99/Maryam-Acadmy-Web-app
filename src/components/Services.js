@@ -24,7 +24,7 @@ const Services = () => {
           Trainig Programs{" "}
         </h1>
         <div className="flex items-center justify-center  mt-12 gap-10 flex-wrap">
-          <div className="border-2 border-white relative min-w-[15rem] shadow-lg max-w-[16rem] bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500">
+          <div className="border-2 border-white relative min-w-[15rem] shadow-lg max-w-[16rem] bg-gradient-to-r from-green-400 to-blue-500  hover:from-gray-400 hover:bg-[#100f11] p-5 rounded-xl overflow-hidden hover:scale-105 duration-500">
             <img
               className="h-48 w-full object-cover md:w-48 rounded-xl"
               src="https://hope-revival.ngo/wp-content/uploads/2022/10/sexisme-tranche1-.png"
@@ -35,12 +35,11 @@ const Services = () => {
               <div className="uppercase tracking-wide text-sm text-white font-semibold">
                 Category
               </div>
-              <a
-                href="#"
-                className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
-              >
-                Gender-Based Violence
-              </a>
+             
+              <span className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+           >
+                Gender-Based Violence</span> 
+          
               <p className="mt-2 text-white justify-center leading-5 ">
                 In this training, you will learn about the various forms of
                 gender-based violence, which constitutes a human rights
@@ -52,7 +51,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[16rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[16rem] bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <img
               className="h-48 w-full object-cover md:w-48 rounded-full"
               src="https://w1.pngwing.com/pngs/530/353/png-transparent-school-background-design-flat-design-education-training-elearning-retraining-distance-education-course.png"
@@ -64,11 +63,11 @@ const Services = () => {
                 Category
               </div>
              
-               <a href="#"
+             <span
                 className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Peace Education Training Programs
-              </a>
+                </span> 
               <p className="mt-2 text-white justify-center leading-5 ">
                 These programs aim to promote peacebuilding and conflict
                 resolution skills through topics such as intercultural
@@ -79,7 +78,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[16rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[16rem] bg-gradient-to-r from-green-500 to-blue-500 hover:from-gray-400 hover:bg-[#100f11]   p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <img
               className="h-48 w-full object-cover md:w-48 rounded-full"
               src="https://p7.hiclipart.com/preview/509/838/535/international-court-environmental-law-international-law-ice-circle.jpg"
@@ -90,11 +89,11 @@ const Services = () => {
               <div className="uppercase tracking-wide text-sm text-white font-semibold">
                 Category
               </div>
-              <a href="#"
+              <span
                 className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Environmental Law and Climate Change
-              </a>
+                </span> 
               <p className="mt-2 text-white justify-center leading-5 ">
                 In this training we focus on educating individuals about
                 environmental laws and regulations, as well as the impact of
@@ -105,7 +104,7 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[16rem]  bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-900 hover:bg-[#0d2e4e]  p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
+          <div className="border-2 border-white relative min-w-[15rem] shadow-lg-gray max-w-[16rem]  bg-gradient-to-r from-green-500 to-blue-500  hover:from-gray-400 hover:bg-[#100f11]   p-5 rounded-xl overflow-hidden hover:scale-105 duration-500 shadow-lg">
             <img
               className="h-48 w-full object-cover md:w-48 rounded-full bg-black"
               src="https://png.pngtree.com/png-vector/20210917/ourmid/pngtree-climate-change-illustrator-caring-for-the-earth-png-image_3925259.jpg"
@@ -116,11 +115,11 @@ const Services = () => {
               <div className="uppercase tracking-wide text-sm text-white font-semibold">
                 Category
               </div>
-              <a href="#"
+              <span
                 className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
               >
                 Climate Change and Human Rights
-              </a>
+                </span> 
               <p className="mt-2 text-white justify-center leading-5 ">
                 This Training course explores the relationship between climate
                 change and human rights. By the end of the course, you will be

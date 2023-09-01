@@ -9,7 +9,7 @@ const Contact=()=> {
 <div className='text-center mt-8'>
 <h3 className=' text-3xl font-bold'>Contact</h3>
 
-<div className='mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-black p-6 rounded-lg mx-auto'>
+<div className='mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-slate-700 p-6 rounded-lg mx-auto'>
   <form className='flex flex-col flex-1 gap-5'>
     <input type ="text" placeholder="your name"/>
     <input type ="Email" placeholder="your Email Adress"/>

@@ -40,13 +40,13 @@ export default function Header() {
           </h1>
         </div>
 
-        <nav className="md:w-full left-0 top-0 z-[999]">
+        <nav className="md:w-full left-0 top-0 z-[999] overflow-hidden ">
           <div>
             <div className="bg-black  md:w-full text-white md:block hidden px-7 py-2 font-medium ">
               <ul className="flex items-center gap-7 text-lg ">
                 {menuLinks?.map((menu, i) => (
                   <li onClick={()=> setOpen(false)} 
-                  key={i} className="hover:border-y-2 border-[#0d2e4e] py-2  ">
+                  key={i} className=" hover:text-cyan-400 my-2">
                     <Link to={menu?.link} onClick={()=>setOpen(!open)}>{menu?.name}</Link>
                   </li>
                 ))}

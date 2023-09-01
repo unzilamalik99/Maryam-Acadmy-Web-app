@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 input,textarea{
-    @apply bg-gray-700
+    @apply bg-gray-500
 outline-none rounded-lg p-3}
 
 ::placeholder{
-    @apply text-lg;
+    @apply text-lg ;
 }
 ::selection{
     @apply bg-cyan-500;
